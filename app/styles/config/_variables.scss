@@ -1,0 +1,96 @@
+// Grid
+$size__xs: 320px;
+$size__s: 414px;
+$size__m: 734px;
+$size__l: 1024px;
+$size__xl: 1250px;
+$size__xxl:  1920px;
+$size__xxxl: 2340px;
+$size__4k: 3200px;
+
+$media__xs: min-width $size__xs; // 320
+$media__s: min-width $size__s; // 414
+$media__m: min-width $size__m; // 768
+$media__l: min-width $size__l; // 1024
+$media__xl: min-width $size__xl; // 1280
+$media__xxl: min-width $size__xxl; // 1920
+$media__xxxl: min-width $size__xxxl; // 2560
+$media__4k: min-width $size__4k; // 3200
+
+$grid__size__xs: rem(280);
+$grid__size__s: rem(344);
+$grid__size__m: rem(704);
+$grid__size__l: rem(960);
+$grid__size__xl: rem(1170);
+
+$xs_fixed_gutter: 14px;
+$xs_fixed_width: 35px;
+$s_fixed_gutter: 5%;
+$s_fixed_width: 12.5%;
+$m_fixed_gutter: 16px;
+$m_fixed_width: 44px;
+$l_fixed_gutter: 24px;
+$l_fixed_width: 58px;
+$xl_fixed_gutter: 30px;
+$xl_fixed_width: 70px;
+
+$size-xs-negative-gap: rem(-20);
+$size-s-negative-gap: rem(-20);
+$size-m-negative-gap: calc((#{$grid__size__m} - 100vw) /2);
+$size-l-negative-gap: calc((#{$grid__size__l} - 100vw) /2);
+$size-xl-negative-gap: calc((#{$grid__size__xl} - 100vw) /2);
+
+$size-xs-positive-gap: rem(20);
+$size-s-positive-gap: rem(20);
+$size-m-positive-gap: calc((100vw - #{$grid__size__m}) /2);
+
+// Fonts
+$font__heading: 'oiTitle', sans-serif;
+$font__text--regular: 'oiTextRegular', sans-serif;
+$font__text--medium: 'oiTextMedium', sans-serif;
+$font__text--bold: 'oiTextBold', sans-serif;
+$font__text--light: 'oiTextLight', sans-serif;
+
+// Colors
+$color__white: #ffffff;
+$color__black: #222222;
+
+$color__gray: #909090;
+$color__gray--light: #dbdbdb;
+$color__gray--bright: #f5f5f5;
+
+$color__aqua: #00a596;
+$color__aqua--light: #47b969;
+$color__aqua--bright: #5aed86;
+$color__aqua--deep-dark: #33875c;
+
+$color__magenta: #8c3c8c;
+$color__magenta--light: #b9418c;
+$color__magenta--bright: #ed53b5;
+$color__magenta--deep-dark: #592659;
+
+$color__yellow: #ffa800;
+$color__yellow--bright: #ffd400;
+$color__yellow--dark: #f06923;
+$color__yellow--deep-dark: #f06923;
+
+$color__alert--red: #ff0000;
+$color__alert--green: #47b969;
+
+$win-colors: (
+  #{$color__aqua}: #00998c,
+  #{$color__magenta}: #803780,
+  #{$color__yellow}: #f2a200
+);
+
+
+// Forms
+$formPaddingVertical: 1.125rem;
+$formPaddingHorizontal: 2.25rem;
+
+// Border
+$border-radius-width: rem(2);
+
+// Elements
+$cartHeightMobile: rem(80);
+$cartHeightDesktop: rem(100);

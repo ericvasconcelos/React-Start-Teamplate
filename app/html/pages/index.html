@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %} {% endblock %}
+{% block description %}{% endblock %}
+
+{% block ogUrl %}/{% endblock %}
+{% block ogTitle %}{% endblock %}
+{% block ogDescription %}{% endblock %}
+
+{% block ogExtras %}
+  <meta property="og:latitude" content="">
+  <meta property="og:longitude" content="">
+  <meta property="og:street-address" content="">
+  <meta property="og:locality" content="">
+  <meta property="og:region" content="">
+  <meta property="og:postal-code" content="">
+  <meta property="og:country-name" content="BR">
+  <meta property="og:phone_number" content="">
+{% endblock %}
+
+{% block twitterUrl %}/{% endblock %}
+{% block twitterTitle %}{% endblock %}
+{% block twitterDescription %}{% endblock %}
+
+{% block geo %}
+  <meta name="geo.position" content="">
+  <meta name="geo.region" content="BR">
+  <meta name="geo.placename" content="Rio de Janeiro, Rio de Janeiro, Brasil">
+{% endblock %}
+
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="/css/home.css">
+{% endblock %}
+
+{% block bodyClass %}home{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="/js/home.bundle.js"></script>
+{% endblock %}

@@ -1,0 +1,64 @@
+%gradient__animate {
+  animation: kf-background 6.1s infinite;
+}
+
+// gradient colors
+%gradient__aqua {
+  background-color: $color__aqua;
+
+  &__vertical {
+    background-image: linear-gradient(0deg, $color__aqua 34%, $color__aqua--light 100%);
+  }
+
+  &__horizontal {
+    background-image: linear-gradient(90deg, $color__aqua 34%, $color__aqua--light 100%);
+  }
+}
+
+%gradient__aqua--dark {
+  background-color: $color__aqua;
+
+  &__vertical {
+    background-image: linear-gradient(0deg, $color__aqua--light 34%, $color__aqua 100%);
+  }
+
+  &__horizontal {
+    background-image: linear-gradient(90deg, $color__aqua--light 34%, $color__aqua 100%);
+  }
+}
+
+%gradient__aqua--light {
+  background-color: $color__aqua;
+
+  &__vertical {
+    background-image: linear-gradient(0deg, #1aac85 34%, $color__aqua 100%);
+  }
+
+  &__horizontal {
+    background-image: linear-gradient(90deg, #1aac85 34%, $color__aqua 100%);
+  }
+}
+
+%gradient__magenta {
+  background-color: $color__magenta;
+
+  &__vertical {
+    background-image: linear-gradient(0deg, $color__magenta 34%, $color__magenta--light 100%);
+  }
+
+  &__horizontal {
+    background-image: linear-gradient(90deg, $color__magenta 34%, $color__magenta--light 100%);
+  }
+}
+
+%gradient__yellow {
+  background-color: $color__yellow;
+
+  &__vertical {
+    background-image: linear-gradient(0deg, $color__yellow 34%, $color__yellow 100%);
+  }
+
+  &__horizontal {
+    background-image: linear-gradient(90deg, $color__yellow 34%, $color__yellow 100%);
+  }
+}

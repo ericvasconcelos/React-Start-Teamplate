@@ -1,0 +1,7 @@
+@import '../config/config';
+
+// Temp solution to horizontal scroll
+html,
+body {
+  overflow-x: hidden;
+}
